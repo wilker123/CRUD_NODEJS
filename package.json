@@ -4,7 +4,8 @@
   "description": "CRUD com Node.JS, express, TypeORM e postgreSQL",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --transpile-only src/server.ts"
+    "dev": "ts-node-dev --transpile-only src/server.ts",
+    "typeorm": "ts-node-dev node_modules/.bin/typeorm"
   },
   "repository": {
     "type": "git",
